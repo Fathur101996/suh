@@ -17,7 +17,7 @@ echo "ngrok : https://dashboard.ngrok.com/get-started/your-authtoken"
 echo "Lah jangan bacot"
 echo "===================================="
 rm -rf ngrok  ngrok.zip  ng.sh > /dev/null 2>&1
-wget -O ng.sh LINK2 > /dev/null 2>&1
+wget -O ng.sh https://raw.githubusercontent.com/Fathur101996/suh/main/hadeh > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
 clear

@@ -1,6 +1,6 @@
-sudo adduser upcrewgrub --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password
-echo "upcrewgrub:upcrew" | sudo chpasswd
-sudo usermod -aG sudo,adm upcrewgrub
+sudo adduser upcrewgroub --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password
+echo "upcrewgroub:upcrew" | sudo chpasswd
+sudo usermod -aG sudo,adm upcrewgroub
 clear
 echo "Install"
 echo "===================================="
@@ -11,7 +11,7 @@ echo xfce4-session >~/.xsession
 sudo service xrdp start
 clear
 echo "===================================="
-echo "Username : upcrewgrub"
+echo "Username : upcrewgroub"
 echo "Password : upcrew"
 echo "ngrok : https://dashboard.ngrok.com/get-started/your-authtoken"
 echo "Lah jangan bacot"
